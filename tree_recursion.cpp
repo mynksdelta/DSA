@@ -7,7 +7,7 @@ using namespace std;
     This statement can be written as 2(0) + 2(1) + 2(2) + 2(3) which is sum of geometric progression.
     This one can be written as [2(n + 1) - 1].
     So the time complexity becomes o(2(n)), here in x(n), n is the power of x.
-    Space complexity will be the maximum height of tree, ie n+1, which is 4 in the case of n = 3.
+    Space complexity will be the maximum height of tree, ie o(n+1), which is 4 in the case of n = 3.
 */
 
 void fun(int n)
